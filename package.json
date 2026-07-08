@@ -1,0 +1,17 @@
+{
+  "name": "dummy-app",
+  "version": "1.0.0",
+  "description": "Dummy stoppable http application",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "stop": "node stop.js"
+  },
+  "keywords": [
+  ],
+  "author": "dotnsf@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
