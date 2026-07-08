@@ -5,8 +5,8 @@
 
 - **Start**
   - `$ npm start`
-  - `$ DATA=. npm start`
-  - `$ npm start -D .`
+  - `$ DATA=. PORT=8080 npm start`
+  - `$ npm start -- -D . -P 8080`
 
 - **Stop**
   - `$ npm stop`

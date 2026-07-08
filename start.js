@@ -15,11 +15,11 @@ var _data = 'DATA' in process.env ? process.env.DATA : default_data;
 
 //. パラメータ
 for( var i = 2; i < process.argv.length; i ++ ){
-  if( ( proess.argv[i] == '-P' || process.argv[i] == '--port' ) && i + 1 < process.argv.length ){
+  if( ( process.argv[i] == '-P' || process.argv[i] == '--port' ) && i + 1 < process.argv.length ){
     _port = process.argv[i+1];
     i ++;
   }
-  if( ( proess.argv[i] == '-D' || process.argv[i] == '--data' ) && i + 1 < process.argv.length ){
+  if( ( process.argv[i] == '-D' || process.argv[i] == '--data' ) && i + 1 < process.argv.length ){
     _data = process.argv[i+1];
     i ++;
   }
