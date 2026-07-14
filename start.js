@@ -25,6 +25,11 @@ for( var i = 2; i < process.argv.length; i ++ ){
   }
 }
 
+
+if( _data && !_data.endsWith( '/' ) ){
+  _data = _data + '/';
+}
+
 var counter_file = _data + '.counter';
 var pid_file = _data + '.server.pid';
 
